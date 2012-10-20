@@ -25,7 +25,7 @@ import org.xhtmlrenderer.swing.ScalableXHTMLPanel
  * @author Andres Almiray
  */
 class FlyingsaucerGriffonAddon {
-    def factories = [
+    Map factories = [
         xhtmlPanel: new XhtmlPanelFactory(XHTMLPanel),
         scalableXhtmlPanel: new XhtmlPanelFactory(ScalableXHTMLPanel),
         fsScrollPane: new ScrollPaneFactory(FSScrollPane)
